@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200&display=swap');
+*{
+    padding: 0;
+    margin: 0
+}
+@media screen and (max-width: 1930px) {
+    body {
+        background-color: rgb(127, 236, 231);
+    }
+}
+@media screen and (max-width: 1001px) {
+    body {
+        background-color: rgb(241, 162, 241);
+    }
+}
+@media screen and (max-width: 800px) {
+    body {
+        background-color: rgb(119, 236, 138);
+    }
+}
+@media screen and (max-width: 200px){
+    body{ background-color: rgb(241, 223, 121);
+    }
+}
+
+@media screen and (max-width: 1930px) {
+    .parte3{
+        background-color: rgb(178, 172, 196);
+    }
+}
+@media screen and (max-width: 1001px){
+    .parte3 {
+        background-color: rgb(241, 223, 121);
+    }
+}
+.proyecto{
+        /* position: fixed;
+        width: 100%; */
+}
+.encabezado{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    background-color: antiquewhite;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+li{
+    width: 200px;
+    background-color: antiquewhite;
+    border: 10px solid antiquewhite;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px;    
+}
+.li1{
+    background-color: rgb(13, 215, 230);
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+}
+
+
+.nombre{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    background-color: antiquewhite;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+.yo{
+    background-color: rgb(216, 243, 243);
+    margin: 20px;
+}
+.a1{
+    margin: 30px;
+}
+
+.a2{
+    margin: 30px;
+    border-radius: 30px;
+    background-color: rgb(13, 215, 230);
+    height: 20px;
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+}
+.imagen{
+    margin: 30px;
+    box-shadow: 0 0 50px black;
+}
+.conocimientos{
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    margin: 40px;
+}
+
+.imagen-conocimientos{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.img img{
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    box-shadow: 0 0 40px black;
+    border-radius: 30px;
+    background-color: aliceblue;
+}
+.parte3{
+    text-align: center;
+}
+.comilla{
+    justify-content: center;
+}
+.comillas{
+    height: 150px;
+    font-size: 200px;
+}
+.comillas2{ 
+    font-size: 30px; 
+}
+.escribime{
+    background-color: rgb(178, 172, 196);
+}
+.nombre-apellido{
+    display: flex;
+}
+.texto{
+    margin: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.enviar{
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: rgba(13, 216, 230, 0.459); 
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    margin: 20px;
+    }
+.redes img{
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+    border-radius: 100%;
+    box-shadow: 0 0 50px black;
+    }
+.texto2{
+    margin: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    }
+.redes{
+    display: flex;
+    justify-content: space-around;
+    }
